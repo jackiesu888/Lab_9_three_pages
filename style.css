@@ -11,12 +11,12 @@ h1 {
   font-family: Agency FB; 
 }
 p {
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
 }
 @media (min-width: 30rem) {
     p {
-        font-size: 25px;
+        font-size: 20px;
         color: black;
     }
 }
@@ -43,4 +43,10 @@ p {
 }
 .im1 {
     width: 30%;
+}
+.background {
+  background-image: url(Images/OOR_bg.jpg);
+  background-repeat:no-repeat ;
+  background-size:100% 100%;
+  background-attachment: fixed;
 }
