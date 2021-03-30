@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: Georgia, sans-serif; text-align: center;
+}
+h1 {
+  font-family: Agency FB; 
+}
+p {
+    font-size: 25px;
+    color: gray;
+}
+@media (min-width: 30rem) {
+    p {
+        font-size: 25px;
+        color: black;
+    }
+}
+.nav_item {
+    list-style: none;
+    display: block;
+}
+.nav_link {
+    padding: 1rem;
+    display: block;
+    text-align: center;
+}
+@media (min-width: 40rem) {
+    .nav_item {
+        display: inline-block;
+    }
+    .nav_link {
+        display: inline;
+    }
+}
+.nav_link:hover {
+    background: purple;
+    color: white;
+}
+.im1 {
+    width: 30%;
+}
